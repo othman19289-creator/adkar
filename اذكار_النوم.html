@@ -1,0 +1,167 @@
+<html lang="ar" dir="rtl">
+<head>
+	<link rel="icon" type="image/x-icon" href="adkaralmusliam/images/favicon.ico">
+     <meta name="Description" content="اذكار، أذكار، الأذكار، دعاء، ادعية، أدعية، ذكر، تسبيح، تسابيح، سبحة، سبح، اذكار الصباح، اذكار المساء، اذكار الصباح والمساء اليومية، الأذكار، اذكار المسلم، اذكار الصلاة، اذكار الوضوء، اذكار النوم، اذكار الاستيقاظ، اذكار الطعام، اذكار التشهد، اذكار الخلاء، اذكار المسجد، اذكار الآذان، اذكار المنزل، دعاء ختم القرآن الكريم، اذكار عظيمة، أذكار الحج والعمرة، أدعية نبوية، الأدعية القرآنية، فضل الدعاء، فضل الذكر، فضائل السور، جوامع الدعاء،أذكار بعد الصلاة، أسماء الله الحسنى، الرُّقية الشرعية، الرُّقية الشرعية من القرآن والسن، أدعية للميّت، أدعية للمتوفى، أدعية للمتوفية، أزهر، الأزهر،إفتاء،دار الإفتاء، Azkar, Athkar, Alathkar, Doaa, Muslim daily blessings. Azkar Al Muslim. Athkar Al Muslim">
+		<meta name="Keywords" content="اذكار، أذكار، الأذكار، دعاء، ادعية، أدعية، ذكر، تسبيح، تسابيح، سبحة، سبح، اذكار الصباح، اذكار المساء، اذكار الصباح والمساء اليومية، الأذكار، اذكار المسلم، اذكار الصلاة، اذكار الوضوء، اذكار النوم، اذكار الاستيقاظ، اذكار الطعام، اذكار التشهد، اذكار الخلاء، اذكار المسجد، اذكار الآذان، اذكار المنزل، دعاء ختم القرآن الكريم، اذكار عظيمة، أذكار الحج والعمرة، أدعية نبوية، الأدعية القرآنية، فضل الدعاء، فضل الذكر، فضائل السور، جوامع الدعاء،أذكار بعد الصلاة، أسماء الله الحسنى، الرُّقية الشرعية، الرُّقية الشرعية من القرآن والسن، أدعية للميّت، أدعية للمتوفى، أدعية للمتوفية، أزهر، الأزهر،إفتاء،دار الإفتاء، Azkar, Athkar, Alathkar, Doaa, Muslim daily blessings. Azkar Al Muslim. Athkar Al Muslim">
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>أذكار النوم - adkarmusliam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Amiri', serif; background-color: #f0fdf4; }
+        .clickable-area:active { transform: scale(0.99); transition: transform 0.1s; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+	
+    <header class="max-w-4xl mx-auto text-center mb-10">
+        <h1 class="text-4xl font-bold text-emerald-800 mb-2">أذكار النوم</h1>
+		<p class="text-emerald-600">حصن المسلم - المصدر: إسلام بوك</p>
+        <a href="https://adkaralmusliam.github.io/adkaralmusliam/" 
+   class="fixed top-4 right-4 z-50 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2 transition-all duration-300 group">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+    </svg>
+    <span class="font-bold">الرجوع للرئيسية</span>
+</a>
+    </header>
+
+    <main id="azkar-container" class="max-w-4xl mx-auto space-y-4">
+        </main>
+
+    <script>
+        // قاعدة بيانات أذكار المساء من موقع إسلام بوك
+        const azkarData = [
+    {
+        text: "بِاسْمِكَ رَبِّـي وَضَعْـتُ جَنْـبي ، وَبِكَ أَرْفَعُـه، فَإِن أَمْسَـكْتَ نَفْسـي فارْحَـمْها ، وَإِنْ أَرْسَلْتَـها فاحْفَظْـها بِمـا تَحْفَـظُ بِه عِبـادَكَ الصّـالِحـين.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "اللّهُـمَّ إِنَّـكَ خَلَـقْتَ نَفْسـي وَأَنْـتَ تَوَفّـاهـا لَكَ ممَـاتـها وَمَحْـياها ، إِنْ أَحْيَيْـتَها فاحْفَظْـها ، وَإِنْ أَمَتَّـها فَاغْفِـرْ لَـها . اللّهُـمَّ إِنَّـي أَسْـأَلُـكَ العـافِـيَة.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "اللّهُـمَّ قِنـي عَذابَـكَ يَـوْمَ تَبْـعَثُ عِبـادَك.",
+        maxCount: 3,
+        currentCount: 3
+    },
+    {
+        text: "بِاسْـمِكَ اللّهُـمَّ أَمـوتُ وَأَحْـيا.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "الـحَمْدُ للهِ الَّذي أَطْـعَمَنا وَسَقـانا، وَكَفـانا، وَآوانا، فَكَـمْ مِمَّـنْ لا كـافِيَ لَـهُ وَلا مُـؤْوي.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "اللّهُـمَّ عالِـمَ الغَـيبِ وَالشّـهادةِ فاطِـرَ السّماواتِ وَالأرْضِ رَبَّ كُـلِّ شَـيءٍ وَمَليـكَه، أَشْهـدُ أَنْ لا إِلـهَ إِلاّ أَنْت، أَعـوذُ بِكَ مِن شَـرِّ نَفْسـي، وَمِن شَـرِّ الشَّيْـطانِ وَشِـرْكِه، وَأَنْ أَقْتَـرِفَ عَلـى نَفْسـي سوءاً أَوْ أَجُـرَّهُ إِلـى مُسْـلِم .",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "اللّهُـمَّ أَسْـلَمْتُ نَفْـسي إِلَـيْكَ، وَفَوَّضْـتُ أَمْـري إِلَـيْكَ، وَوَجَّـهْتُ وَجْـهي إِلَـيْكَ، وَأَلْـجَـاْتُ ظَهـري إِلَـيْكَ، رَغْبَـةً وَرَهْـبَةً إِلَـيْكَ، لا مَلْجَـأَ وَلا مَنْـجـا مِنْـكَ إِلاّ إِلَـيْكَ، آمَنْـتُ بِكِتـابِكَ الّـذي أَنْزَلْـتَ وَبِنَبِـيِّـكَ الّـذي أَرْسَلْـت.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        text: "سُبْحَانَ اللَّهِ (33)، الْحَمْدُ لِلَّهِ (33)، اللَّهُ أَكْبَرُ (34).",
+        note: "تُقال عند النوم.",
+        maxCount: 1, // تم وضعها كمرة واحدة للمجموعة كاملة أو يمكنك فصلها
+        currentCount: 1
+    },
+    {
+        title: "النفث في الكفين",
+        text: "يجمع كفيه ثم ينفث فيهما ويقرأ: {قل هو الله أحد} و{قل أعوذ برب الفلق} و{قل أعوذ برب الناس} ثم يمسح بهما ما استطاع من جسده.",
+        maxCount: 3,
+        currentCount: 3
+    },
+    {
+        title: "خواتيم سورة البقرة",
+        text: "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ...",
+        note: "من قرأهما في ليلة كفتاه.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        title: "آية الكرسي",
+        text: "اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ...",
+        note: "لن يزال عليك من الله حافظ ولا يقربك شيطان حتى تصبح.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        title: "عند القلق والأرق",
+        text: "اللهم رب السموات السبع وما أظلت، ورب الأرضين وما أقلت، ورب الشياطين وما أضلت، كن لي جارا من خلقك كلهم جميعا أن يفرط علي أحد منهم أو أن يبغي علي، عز جارك، وجل ثناؤك ولا إله غيرك.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        title: "عند الفزع في النوم",
+        text: "أعوذ بكلمات الله التامة من غضبه وشر عباده، ومن همزات الشياطين وأن يحضرون.",
+        maxCount: 1,
+        currentCount: 1
+    },
+    {
+        title: "عند رؤية ما يكره (الحلم)",
+        text: "ينفث عن شماله ثلاثاً، ويتعوذ بالله من الشيطان ومن شر ما رأى (ثلاثاً)، ولا يحدث بها أحداً فإنها لن تضره.",
+        maxCount: 1,
+        currentCount: 1
+    }
+];
+
+        function renderAzkar() {
+            const container = document.getElementById('azkar-container');
+            container.innerHTML = '';
+            
+            azkarData.forEach((zekr, index) => {
+                const isDone = zekr.currentCount === 0;
+                const cardClass = isDone ? 'opacity-50 grayscale bg-gray-50 border-gray-200' : 'bg-white border-emerald-200 hover:border-emerald-400';
+                const counterClass = isDone ? 'bg-gray-400' : 'bg-emerald-600';
+                
+                const titleHtml = zekr.title ? `<div class="text-emerald-700 font-bold text-center mb-3 text-lg">${zekr.title}</div>` : '';
+                const noteHtml = zekr.note ? `<div class="mt-4 bg-emerald-50 border-r-4 border-emerald-500 p-3 rounded-md text-emerald-800 text-sm italic">${zekr.note}</div>` : '';
+
+                container.innerHTML += `
+                    <div class="rounded-xl shadow-md border overflow-hidden transition-all duration-300 ${cardClass}">
+                        <div class="grid grid-cols-1 md:grid-cols-[1fr_auto]">
+                            <div class="p-6 cursor-pointer clickable-area select-none" onclick="decrement(${index})">
+                                ${titleHtml}
+                                <p class="text-gray-900 text-justify leading-loose text-xl">${zekr.text}</p>
+                                ${noteHtml}
+                            </div>
+                            <div class="${counterClass} text-white flex md:flex-col items-center justify-between md:justify-center gap-3 p-4 md:min-w-[110px]">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold">${zekr.currentCount}</div>
+                                    <div class="text-emerald-100 text-xs mt-1">من ${zekr.maxCount}</div>
+                                </div>
+                                <button onclick="reset(${index}, event)" class="bg-black/20 hover:bg-black/30 px-3 py-1 rounded text-xs">إعادة</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function decrement(index) {
+            if (azkarData[index].currentCount > 0) {
+                azkarData[index].currentCount--;
+                renderAzkar();
+            }
+        }
+
+        function reset(index, event) {
+            event.stopPropagation();
+            azkarData[index].currentCount = azkarData[index].maxCount;
+            renderAzkar();
+        }
+
+        renderAzkar();
+    </script>
+</body>
+</html>
